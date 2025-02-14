@@ -1,0 +1,203 @@
+/* General Styles */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  padding-top: 76px;
+}
+
+/* Custom Styles for NavBar */
+.navbar-brand img {
+  height: 100px; /* Increase logo height */
+  width: auto; /* Maintain aspect ratio */
+  transition: height 0.3s; /* Smooth transition */
+}
+
+.navbar {
+  background: linear-gradient(
+    135deg,
+    #4caf50,
+    #1e88e5
+  ); /* Navbar background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+  padding: 0.5rem 1rem; /* Adjust navbar padding */
+}
+
+.navbar-nav .nav-link {
+  color: #fff; /* Link color */
+  font-weight: 500; /* Medium font weight */
+  margin-left: 20px; /* Space between links */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ff9900; /* Hover color */
+}
+
+.navbar-toggler {
+  border: none; /* Remove border */
+}
+
+.navbar-toggler:focus {
+  box-shadow: none; /* Remove focus outline */
+}
+
+/* Ensure navbar height remains consistent */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  height: 60px; /* Match logo height */
+}
+
+/* End NavBar */
+
+/* Custom Styles */
+.history,
+.vision,
+.sustainability,
+.team {
+  padding: 80px 0;
+}
+
+/* About Us Section with Video Background */
+#about-us {
+  position: relative;
+  padding: 100px 0; /* Adjust padding as needed */
+  min-height: 50vh; /* Ensures the section is at least 80% of the viewport height */
+}
+
+
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Make sure video stays in the background */
+}
+
+#bg-video {
+  object-fit: cover; /* Makes sure the video covers the entire container */
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Darkens the video with a semi-transparent black overlay */
+}
+
+/* Text Styling on Top of Video */
+.section-title {
+    font-size: 3rem; /* Larger font size */
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.lead-section {
+  font-size: 1.25rem;
+  color: #f8f9fa;
+}
+
+/* Add additional text styling if needed */
+.history,
+.sustainability {
+  background: #fff;
+}
+
+.vision,
+.team {
+  background: #ddd;
+}
+
+.col-md-6 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.container h3 {
+    margin-bottom: 50px;
+}
+.team-member img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+/* About Us Section Styling */
+
+
+
+
+/* Footer Styling */
+.footer {
+    background: linear-gradient(135deg, #4caf50, #1e88e5);
+    color: #f8f9fa;
+  }
+  
+  .footer-logo {
+    max-width: 120px;
+  }
+  
+  .footer-statement {
+    font-size: 14px;
+    color: #ddd;
+    margin-top: 10px;
+  }
+  
+  .footer h5 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .footer ul {
+    list-style-type: none;
+    padding: 40px 0 0;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  
+  
+  .footer ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer ul li a {
+    color: #f8f9fa;
+    text-decoration: none;
+  }
+  
+  .footer ul li a:hover {
+    color: #333 !important;
+  }
+  
+  .footer .social-icons {
+      padding-top: 40px !important;
+  
+  }
+  
+  .footer .social-icons a {
+    text-decoration: none;
+    color: #f8f9fa;
+    font-size: 20px;
+  }
+  
+  .footer .social-icons a:hover {
+    color: #333 !important;
+  }
+  
+  .footer .text-center {
+    margin-top: 20px;
+    font-size: 14px;
+  }
